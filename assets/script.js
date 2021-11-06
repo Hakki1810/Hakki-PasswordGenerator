@@ -73,16 +73,16 @@ function generatePassword() {
     return generatePassword();
   }
   if (hasrandomlowercase) {
-    functionsArray.push(randomlowercase());
+    functionsArray.push(randomlowercase);
   }
   if (hasrandomuppercase) {
-    functionsArray.push(randomuppercase());
+    functionsArray.push(randomuppercase);
   }
   if (hasrandomnumber) {
-    functionsArray.push(randomnumber());
+    functionsArray.push(randomnumber);
   }
   if (hasrandomsymbol) {
-    functionsArray.push(randomsymbol());
+    functionsArray.push(randomsymbol);
   }
   console.log(functionsArray);
 
